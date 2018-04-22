@@ -1,3 +1,6 @@
+.x_layout_drafting {
+    /*border : 1px solid lightgrey;*/ /*Class for visualizing block elements*/
+}    
 body {
     background-image:url("../images/background.jpg");
     font-family: 'Heebo', sans-serif;
@@ -5,6 +8,12 @@ body {
 header {
     margin-top: 50px;
     margin-bottom: 20px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+.navbar-default {
+    border-color: transparent;
 }
 footer {
     padding:50px;
@@ -43,7 +52,6 @@ nav ul li {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
 }
-
 .x_table {
     display: table;
     width: 100%;
@@ -60,12 +68,12 @@ nav ul li {
 }
 #video_1 {
     border-radius:30px;
-    border:-20px solid black;
     filter:opacity(0.8);
-}
-.x_layout_drafting {
-    border : 1px solid lightgrey;
 }
 .row {
     margin:0px;
 }
+.x_itemcolor {
+    color: black;
+}
+
